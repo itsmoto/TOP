@@ -19,7 +19,8 @@
 </style>
         <script type="text/javascript">
 
-$(function () {
+$(function () { 
+    //Image viewer
     var viewer = ImageViewer();
     $('.gallery-items').click(function () {
         var imgSrc = this.src,
